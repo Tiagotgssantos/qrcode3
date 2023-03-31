@@ -3,7 +3,7 @@ let gerar = document.getElementById("gerarQRCode");
 function gerarQRCode(){
     let inputUsuario = document.querySelector("textarea").value;
     //o .value vai pegar o valor dentro do textarea.
-    let googleAPI ='https://chart.googleapis.com/chart?cht=qr&chs=300x300&chld=H&chl='
+    let googleAPI ='https://chart.googleapis.com/chart?cht=qr&chs=270x270&chld=H&chl='
     /*Apos adicionar o link tem que adicionar alguns parametros
     cht=qr&chs=300x300&chl=
     e para melhorar a leitura do QRcode podemos adicionar apos o 300:
