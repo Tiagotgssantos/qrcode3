@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto QR code</title>
+    <link rel="stylesheet" href="/qrcode.css">
+</head>
+<body>
+    <div id="caixa">
+        <div id="container">
+            <span class="cor"></span>
+            <span class="cor"></span>
+            <span class="cor"></span>
+            <span class="cor"></span>
+            <h1 class="titulo">Crie seu QRCode</h1>
+            <p class="digitar">Digite o texto que você quer gerar no QRcode</p>
+            <textarea maxlength="400" rows="4" class="texto"></textarea>
+            <button id="gerarQRCode">Gerar QRCode</button>
+            <img id="QECodeImage">
+        </div>
+    </div>
+    
+    <script src="/qrcode.js"></script>
+    
+</body>
+</html>
